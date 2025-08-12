@@ -3,7 +3,7 @@ import tempfile
 import shutil
 import os
 from pathlib import Path
-from datafinder.datafinder import DataFinder
+from datafinder import DataFinder
 
 @pytest.fixture(scope="function")
 def temp_dir():
